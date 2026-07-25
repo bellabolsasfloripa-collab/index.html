@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellabolsas | Florianópolis</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #fcf8f8; color: #333; }
+        
+        header { background-color: #fff; text-align: center; padding: 25px; border-bottom: 2px solid #e8c5c8; }
+        header h1 { color: #b56576; font-size: 2.5rem; letter-spacing: 2px; }
+        header p { color: #666; font-size: 0.9rem; margin-top: 5px; }
+
+        .banner { background: linear-gradient(135deg, #e8c5c8, #f4acb7); color: #fff; text-align: center; padding: 50px 20px; }
+        .banner h2 { font-size: 2rem; margin-bottom: 10px; }
+        .banner p { font-size: 1.1rem; }
+
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .section-title { text-align: center; margin-bottom: 30px; color: #b56576; }
+
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; }
+        .product-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; padding: 20px; border: 1px solid #f0dcdc; }
+        .product-card img { width: 100%; height: 220px; object-fit: cover; border-radius: 8px; }
+        .product-card h3 { font-size: 1.2rem; margin: 15px 0 8px; color: #444; }
+        .product-card .price { font-size: 1.3rem; font-weight: bold; color: #b56576; margin-bottom: 15px; }
+        
+        .btn-whats { display: inline-block; background-color: #25d366; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 25px; font-weight: bold; transition: 0.3s; }
+        .btn-whats:hover { background-color: #1eb854; }
+
+        footer { background-color: #fff; border-top: 1px solid #e8c5c8; text-align: center; padding: 30px; margin-top: 50px; font-size: 0.9rem; color: #666; }
+        footer a { color: #b56576; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BELLABOLSAS</h1>
+        <p>Elegância e estilo em Florianópolis</p>
+    </header>
+
+    <section class="banner">
+        <h2>Sua rotina com mais estilo</h2>
+        <p>Bolsas femininas exclusivas para todos os momentos.</p>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">Nossos Destaques</h2>
+        <div class="products-grid">
+            
+            <!-- Produto 1 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Bolsa+Classica" alt="Bolsa Clássica">
+                <h3>Bolsa Clássica Nude</h3>
+                <p class="price">R$ 189,90</p>
+                <a class="btn-whats" href="https://wa.me/5548991195822?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Bolsa%20Clássica%20Nude" target="_blank">Comprar via WhatsApp</a>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Bolsa+Transversal" alt="Bolsa Transversal">
+                <h3>Bolsa Transversal Elegance</h3>
+                <p class="price">R$ 149,90</p>
+                <a class="btn-whats" href="https://wa.me/5548991195822?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Bolsa%20Transversal%20Elegance" target="_blank">Comprar via WhatsApp</a>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Mochila+Feminina" alt="Mochila Feminina">
+                <h3>Mochila Feminina Chic</h3>
+                <p class="price">R$ 199,90</p>
+                <a class="btn-whats" href="https://wa.me/5548991195822?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Mochila%20Feminina%20Chic" target="_blank">Comprar via WhatsApp</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Bellabolsas Florianópolis - SC</strong></p>
+        <p>Contato: (48) 99119-5822 | bellabolsas.floripa@gmail.com</p>
+        <p>Instagram: <a href="https://instagram.com/bellabolsasfloripa" target="_blank">@bellabolsasfloripa</a></p>
+    </footer>
+
+</body>
+</html>
